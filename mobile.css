@@ -1,0 +1,17 @@
+aside {
+  display: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  font-size: medium;
+}

@@ -1,0 +1,104 @@
+body {
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+header {
+  display: flex;
+  height: 250px;
+  background-color: gray;
+  flex-direction: row;
+  place-content: space-around;
+  border: 5px solid #51515a;
+  background-image: url(fond.jpg);
+  background-size: 100%;
+  width: 100%;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.banniere {
+  border-radius: 30%;
+  border-color: solid#51515a;
+}
+
+ul {
+  list-style-type: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  word-spacing: 10px;
+}
+
+nav {
+  margin-top: 80px;
+  text-decoration-line: overline;
+}
+
+ul li {
+  font-size: xx-large;
+  color: solid black;
+  font-family: fantasy;
+  word-spacing: 10 px;
+}
+main {
+  display: flex;
+}
+
+aside {
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.robot {
+  height: 30rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  align-content: center;
+}
+p {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+h4 {
+  text-align: center;
+}
+
+footer {
+  background-color: gray;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 5px solid #51515a;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  background-image: url(fond.jpg);
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.footer {
+  height: 40px;
+  width: 50px;
+}
